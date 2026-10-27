@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  margin:0;
+  padding-top:1em;
+  background-color:whitesmoke;
+}
+.stick
+{
+ text-align:center;
+ position: sticky;
+ top:0px;
+ margin:0px;
+ background-color: #1b1c1d;
+ color:white;
+ padding: 0px;
+ font-size: 20px;
+ font-weight: bold;
+ z-index:9999;
+ width:100vw;
+}
+.stick>h1{
+  color:whitesmoke;
+}
+.About{
+  width:86vw;
+  margin-left:7vw;
+}
+.About>h2{
+  margin:0;
+}
+.aboutQuote{
+  padding:0 2em;
+  border: 3px solid gray;
+  border-radius: 15px;
+}
