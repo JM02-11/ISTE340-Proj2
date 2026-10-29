@@ -1,7 +1,9 @@
 //import the things I need
 import { useState, useEffect } from 'react';
 
-import getData from './utils/GetData';
+import getData from './utils/getData';
+import PeopleTest from './components/people/peopleTest';
+
 import './App.css'
 
 //functional component
@@ -47,7 +49,11 @@ return(
           <h4 className='quote'>{aboutObj.quote}</h4>
           <h4>----- {aboutObj.quoteAuthor} -----</h4>
         </div>
+        {console.log(aboutObj)}
+        {/* load all of the rest of it */}
       </div>
+      <hr />
+      <PeopleTest></PeopleTest>
   </>
 )
 }
